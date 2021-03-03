@@ -1,9 +1,9 @@
 {
-    "taskDefinition": "arn:aws:ecs:us-east-1:391598506975:task-definition/ecs-demo:1",
-    "cluster": "jjtech-java-app-cluster",
+    "taskDefinition": "arn:aws:ecs:us-east-1:391598506975:task-definition/ecs-demo:2",
+    "cluster": "jjtech-java-cluster",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:391598506975:targetgroup/bleu-environment-tg1/696b4f8a5aece8c3",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:391598506975:targetgroup/jjtech-app-tg1/5e0ac9d84c11e011",
             "containerName": "sample-website",
             "containerPort": 80
         }
@@ -21,7 +21,7 @@
                 "subnet-e852f48e"
             ],
             "securityGroups": [
-                "sg-0f3e6b6e9e5883a9c"
+                "sg-0595d866680b4459e"
             ],
             "assignPublicIp": "ENABLED"
         }

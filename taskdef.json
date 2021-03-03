@@ -1,9 +1,10 @@
 {
-    "executionRoleArn": "arn:aws:iam::464599248654:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::391598506975:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "sample-website",
-            "image": "<IMAGE1_NAME>",
+            "image": "<IMAGE1_NAME>
+",
             "essential": true,
             "portMappings": [
                 {
